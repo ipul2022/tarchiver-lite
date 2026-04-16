@@ -127,6 +127,8 @@ nav ul.mobile-menu {
   transition: ease-in-out;
 }
 
+
+
 nav ul.mobile-menu.is-open {
   display: flex;
 }
@@ -149,4 +151,16 @@ nav ul.mobile-menu.is-open {
     border-right: 0px;
     border-bottom: 2px solid var(--primary-color);
   }
+  nav ul.mobile-menu .close-btn{
+  content: "V";
+  position: absolute;
+  text-align: center;
+  bottom: -15px;
+  padding: 0.3rem;
+  border-radius: 50px;
+  width: 1.3rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+}
 }
